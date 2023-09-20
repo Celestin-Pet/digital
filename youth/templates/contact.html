@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="inner-banner">
+    <section class="w3l-breadcrumb py-5">
+        <div class="container py-lg-5 py-md-3">
+            <h2 class="title">Contact Us</h2>
+        </div>
+    </section>
+</div>
+<!-- banner bottom shape -->
+<div class="position-relative">
+    <div class="shape overflow-hidden">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+        </svg>
+    </div>
+</div>
+<!-- banner bottom shape -->
+<!-- contacts -->
+<section class="w3l-contact-7 py-5" id="contact">
+    <div class="contacts-9 py-lg-5 py-md-4">
+        <div class="container">
+            <div class="top-map">
+                <div class="row map-content-9">
+                    <div class="col-lg-8">
+                        <h3 class="title-big">Send us a Message</h3>
+                        <p class="mb-4 mt-lg-0 mt-2">Your email address will not be published. Required fields are marked *</p>
+                        <form action=" "  class="text-right">
+                            <div class="form-grid">
+                                <input type="text" name="w3lName" id="w3lName" placeholder="Name*" required="">
+                                <input type="email" name="w3lSender" id="w3lSender" placeholder="Email*" required="">
+                                <input type="text" name="w3lPhone" id="w3lPhone" placeholder="Phone number*"
+                                    required="">
+                                <input type="text" name="w3lSubject" id="w3lSubject" placeholder="Subject">
+                            </div>
+                            <textarea name="w3lMessage" id="w3lMessage" placeholder="Message"></textarea>
+                            <button type="submit" class="btn btn-primary btn-style mt-3">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 cont-details">
+                        <address>
+                            <h5 class="">Contact Address</h5>
+                            <p  ><span class="fa fa-map-marker"></span>Rwanda,Kigali city,Gasabo</p>
+                            <p> <a href="mailto:info@example.com"><span
+                                        class="fa fa-envelope"></span>girls@communitygirl.inf.com</a></p>
+                            <p><span class="fa fa-phone"></span><a href="tel:+25028 "> +250782293887</a></p>
+                         
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //contacts -->
+<div class="map">
+    <iframe
+        src="https://www.google.com/maps/place/Nyarutarama,+Kigali/@-1.9398801,30.0794611,14z/data=!3m1!4b1!4m6!3m5!1s0x19dca6c43a09d8a5:0xfb4f1ab02ad0cbab!8m2!3d-1.9388762!4d30.1040715!16zL20vMDgwX3Zs?entry=ttu"
+        frameborder="0" style="border:0" allowfullscreen=""></iframe>
+</div>
+{% endblock %}
